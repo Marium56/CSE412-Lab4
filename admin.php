@@ -4,7 +4,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION
     header("location: login.php");
     exit;
 }
-$files = glob("uploads/*");
+$files = glob("new/*");
 ?>
 <!DOCTYPE html>
 <html>
